@@ -2,9 +2,21 @@
 #include <string.h>
 using namespace std;
 
-class Node 
+class Node
 {
-public :
+public:
     int noMhs;
     Node *next;
+};
+
+class LinkedList
+{
+    Node *START;
+
+public:
+    LinkedList()
+    {
+        START = NULL;
+    }
+
 };
